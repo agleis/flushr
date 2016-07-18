@@ -1,0 +1,22 @@
+@import "variables";
+
+.about-section {
+  background-color: $light-gray-background-transparent;
+  padding-bottom: 40px;
+}
+.about-content {
+  line-height: 1.5em;
+  font-size: 24px;
+  color: $dark-gray-text;
+  p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+}
+
+.about-header {
+  h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+}

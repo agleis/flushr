@@ -1,0 +1,49 @@
+@import "variables";
+
+.navbar {
+  height: 100px;
+  padding-top: 20px;
+  border-bottom: 2px solid $medium-gray;
+  min-width: 1000px;
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+
+.button-nav {
+  padding-left: 0;
+  padding-right: 0;
+  z-index: $z-index-higher;
+  .btn-group {
+    .btn {
+      color: $flushr-blue;
+    }
+    ul {
+      width: 100%;
+      margin-top: -1px;
+    }
+  }
+}
+
+.affix {
+  top: 0px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.profile-button {
+  color: $flushr-blue;
+  border: none;
+  background-color: #fff;
+  .glyphicon {
+    margin-right: 5px;
+  }
+  ul {
+    li {
+      a:visited {
+        color: $flushr-blue;
+      }
+    }
+  }
+}

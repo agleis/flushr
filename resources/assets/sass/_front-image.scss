@@ -1,0 +1,64 @@
+@import "variables";
+
+.carousel-col {
+  padding: 0;
+  height: 600px;
+  text-align: center;
+}
+
+.carousel {
+  text-align: center;
+  min-width: 1000px;
+}
+.carousel-caption {
+  z-index: $z-index-high;
+  top: 0;
+  bottom: auto;
+  margin-top: 50px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+.image-overlay {
+  position: absolute;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  background: -webkit-linear-gradient($background-opaque-top, $background-opaque-bottom); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($background-opaque-top, $background-opaque-bottom); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($background-opaque-top, $background-opaque-bottom); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($background-opaque-top, $background-opaque-bottom); /* Standard syntax */
+  transition: transform .6s ease-in-out;
+  z-index: $z-index-low;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-control, .carousel-indicators {
+  z-index: $z-index-mid;
+}
+
+.item {
+  img {
+    width: 100%;
+    min-width: 1000px;
+    z-index: $z-index-neg;
+  }
+}
+
+.image-subtitle {
+  p {
+    font-size: 22px;
+  }
+}
+
+.heading {
+  h1 {
+    font-size: 64px;
+  }
+}
