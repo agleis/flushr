@@ -44,7 +44,7 @@
                 <div class="image-subtitle">
                   <p>We've all had a bad rest stop experience out on the open
                   road. Flushr aims to change that. Look miles ahead to
-                  scout out the best option for you trip,
+                  scout out the best option for your trip,
                   and never suffer through that nasty gas station bathroom again.
                   </p>
                 </div>

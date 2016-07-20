@@ -50,7 +50,7 @@
         <div class="list-divs">
           <div class="list-divs-overlay"></div>
           <div class="list-divs-content">
-            <img src="img/Me.jpg">
+            <img src="img/default-user-image.png">
             <a href="contact">
               <div class="row">
                 <div class="list-divs-text col-xs-6">
@@ -71,7 +71,7 @@
         <div class="list-divs">
           <div class="list-divs-overlay"></div>
           <div class="list-divs-content">
-            <img src="img/Me.jpg">
+            <img src="img/default-user-image.png">
             <a href="contact">
               <div class="row">
                 <div class="list-divs-text col-xs-6">
@@ -93,7 +93,7 @@
         <div class="list-divs">
           <div class="list-divs-overlay"></div>
           <div class="list-divs-content">
-            <img src="img/Me.jpg">
+            <img src="img/default-user-image.png">
             <a href="contact">
               <div class="row">
                 <div class="list-divs-text col-xs-6">
