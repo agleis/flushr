@@ -42,7 +42,7 @@
                   <span class="glyphicon glyphicon-user"></span>My Profile
                 </button>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="profile">Profile</a>
+                  <li><a href="profile/{{Auth::user()->id}}">Profile</a>
                 </ul>
               </div>
             @else

@@ -25,6 +25,8 @@ Route::post('contact', ['as' => 'contactUs', 'uses' => 'ContactController@contac
 
 Route::get('search', ['as' => 'search', 'uses' => 'SearchController@search']);
 
+Route::get('profile/{id}', ['as' => 'profile', 'uses' => 'UserController@index']);
+
 /*
 | Authentication routes
  */
