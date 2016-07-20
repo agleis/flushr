@@ -41,6 +41,15 @@ class AuthController extends Controller
     }
 
     /**
+     * getRegister
+     *
+     * @return
+     */
+    public function getRegister() {
+        return parent::getRegister();
+    }
+
+    /**
      * Get a validator for an incoming registration request.
      *
      * @param  array  $data
