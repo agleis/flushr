@@ -1,0 +1,242 @@
+.navbar {
+  height: 100px;
+  padding-top: 20px;
+  border-bottom: 2px solid #a19da0;
+  min-width: 1000px;
+  margin-bottom: 0px;
+}
+
+#title {
+  padding-left: 10%;
+}
+
+#buttons {
+  margin-top: 10px;
+}
+
+.carousel-col {
+  padding: 0;
+  height: 600px;
+  text-align: center;
+}
+
+#carousel {
+  text-align: center;
+  min-width: 1000px;
+}
+.carousel-caption {
+  z-index: 99;
+  top: 0;
+  bottom: auto;
+  margin-top: 50px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+.image-overlay {
+  position: absolute;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  background: -webkit-linear-gradient(rgba(215, 212, 212, 0.8), rgba(215, 212, 212, 0.2)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(215, 212, 212, 0.8), rgba(215, 212, 212, 0.2)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(215, 212, 212, 0.8), rgba(215, 212, 212, 0.2)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(215, 212, 212, 0.8), rgba(215, 212, 212, 0.2)); /* Standard syntax */
+  z-index: 50;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-control, .carousel-indicators {
+  z-index: 95;
+}
+.item img {
+  width: 100%;
+  min-width: 1000px;
+  z-index: -1;
+}
+
+.heading h1 {
+  font-size: 64px;
+}
+
+.image-subtitle p {
+  font-size: 22px;
+}
+
+.image-overlay {
+   transition: transform .6s ease-in-out;
+}
+
+.list-divs {
+  width: 90%;
+  cursor: pointer;
+  min-width: 1000px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #ddd;
+  transition:height 0.5s, width 0.5s; /* Animation time */
+  -webkit-transition:height 0.5s, width 0.5s; /* For Safari */
+  box-shadow: 10px 10px 40px #000;
+}
+
+.list-divs {
+  z-index: 100;
+  background-color: #ddd;
+}
+
+.list-divs-overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.list-divs-content {
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  transition:height 0.5s, width 0.5s; /* Animation time */
+  -webkit-transition:height 0.5s, width 0.5s; /* For Safari */
+}
+
+.list-divs-content > .row {
+  height: 100%;
+}
+
+.list-divs-content > .row > .list-divs-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.list-divs:hover {
+  width: 91%;
+  height: 110px;
+}
+
+.list-divs-content img {
+  height: 100%;
+  display: inline;
+  transition:height 0.2s, width 0.2s; /* Animation time */
+  -webkit-transition:height 0.2s, width 0.2s; /* For Safari */
+}
+
+.list-divs img {
+  float: left;
+}
+
+footer a {
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #444;
+  height: 250px;
+}
+
+.social-media {
+  padding: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  width: 80px;
+  height: 80px;
+}
+
+.list-divs h1 {
+  position: relative;
+  margin-top: 10px;
+  font-size: 52px;
+  left: 40px;
+}
+
+.right-img img {
+  float: right;
+}
+
+.list-divs p {
+  font-size: 16px;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+.right-img p {
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+
+.search {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#mainSearch {
+  margin-top: 10px;
+}
+
+.pac-container {
+  z-index: 100000 !important;
+}
+
+#mainSearchDiv {
+  text-align: center;
+}
+
+#searchMain {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.inline-form .inline-control {
+  margin: 0 !important;
+}
+
+#searchCol, #searchBtnCol {
+  padding: 0 0;
+}
+
+#searchBtnCol {
+  text-align: left;
+}
+
+/*###############
+# About Page  #
+###############*/
+.about-section {
+  background-color: rgba(215, 212, 212, 0.2);
+}
+.about-content {
+  line-height: 1.5em;
+  font-size: 24px;
+  color: #4e4d4d;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  text-indent: 50px;
+}
+
+.about-header h2 {
+  font-size: 42px;
+  text-align: center;
+}

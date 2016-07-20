@@ -12,7 +12,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'username'
     ];
 
     /**
@@ -23,4 +23,19 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    /**
+     * Returns the comments this thing has.
+     */
+    public function comments() {
+      return $this->hasMany('App\Comment');
+    }
+
+    /**
+     * Returns the bathrooms this thing has through comments.
+     */
+    public function bathrooms() {
+      return $this->hasManyThrough('App\Bathroom', 'App\Comment');
+    }
+
 }
